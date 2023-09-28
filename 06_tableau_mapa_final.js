@@ -37,8 +37,8 @@ tableau.extensions.initializeAsync().then(() => {
 				const height = 100; //marker.properties.iconSize[1];
 				el.className = 'marker';
 				el.style.backgroundImage = url('photos/PXL_20221210_165911033.jpg'); //`url('photos/${photo_list[c]}')`;
-				el.style.width = 100px; //`${width}px`;
-				el.style.height = 100px; //`${height}px`;
+				//el.style.width = 100px; //`${width}px`;
+				//el.style.height = 100px; //`${height}px`;
 				el.style.backgroundSize = '100%';
 
 				new mapboxgl.Marker(el)
