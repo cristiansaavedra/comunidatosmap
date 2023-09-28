@@ -21,18 +21,16 @@ tableau.extensions.initializeAsync().then(() => {
 			console.log("rows",rows);
 
 			rows.forEach(row => {
-				alert(row);
-
 				const rowValues = row.map((value) => value.formattedValue);
 				console.log("Rows Values:", rowValues);
 				
-				alert(rowValues);
+				alert(rowValues[3]);
 				
 				const el = document.createElement('div');
 				const width = 100; //marker.properties.iconSize[0];
 				const height = 100; //marker.properties.iconSize[1];
 				el.className = 'marker';
-				el.style.backgroundImage = url('photos/PXL_20221210_165911033.jpg'); //`url('photos/${photo_list[c]}')`;
+				el.style.backgroundImage = 'https://cristiansaavedra.github.io/comunidatosmap/photos/PXL_20221210_165911033.jpg'; //`url('photos/${photo_list[c]}')`;
 				//el.style.width = 100px; //`${width}px`;
 				//el.style.height = 100px; //`${height}px`;
 				el.style.backgroundSize = '100%';
