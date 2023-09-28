@@ -1,0 +1,29 @@
+#Para hacer Debug
+"C:\Program Files\Tableau\Tableau 2023.2\bin\tableau.exe" --remote-debugging-port=8696
+
+http://localhost:8696/
+
+
+#Programa para Desarrolladores
+http://developer.tableau.com/
+
+
+#Tableau Cloud
+https://online.tableau.com/
+
+#Sitio Personal
+https://10ax.online.tableau.com/#/site/cristiansaavedradev226290/
+
+
+#Mapbox
+https://account.mapbox.com/
+https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
+https://docs.mapbox.com/mapbox-gl-js/example/custom-marker-icons/
+
+
+
+https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html
+https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html
+https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html
+https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html
+https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html

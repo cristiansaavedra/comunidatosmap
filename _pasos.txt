@@ -1,0 +1,20 @@
+1. Crear una cuenta en Mapbox
+2. Crear una cuenta en Github
+   Configurar Github como un web site
+3. Crear un repositorio en Github
+4. Crear un Tableau Extension
+5. Cargar la 
+
+
+
+1. Prueba de mapa solo
+2. Prueba de dos marcadores con el mismo icono
+3. Prueba de 3 marcadores con diferente icono
+4. Prueba de integracion Tableau con mapa solo
+5. Prueba de integracion con 3 marcadores fijos
+
+
+
+
+
+https://online.tableau.com/
