@@ -1,20 +1,10 @@
-1. Crear una cuenta en Mapbox
-2. Crear una cuenta en Github
-   Configurar Github como un web site
-3. Crear un repositorio en Github
-4. Crear un Tableau Extension
-5. Cargar la 
+Que vamos a ver hoy?
 
-
-
-1. Prueba de mapa solo
-2. Prueba de dos marcadores con el mismo icono
-3. Prueba de 3 marcadores con diferente icono
-4. Prueba de integracion Tableau con mapa solo
-5. Prueba de integracion con 3 marcadores fijos
-
-
-
-
-
-https://online.tableau.com/
+1. Como usar Mapbox
+2. Como crear un mapa y agregar marcadores desde cero
+3. Como crear una Extension desde cero
+4. Como hacer debug de una extension
+5. Conectar con la data de Tableau
+6. Agregar un mapa de Mapbox en una extension
+7. Como usar Github como repositorio de paginas web estaticas
+8. Como hacer un mapa que use nuestra data en una extension
