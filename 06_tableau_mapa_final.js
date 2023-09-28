@@ -20,33 +20,30 @@ tableau.extensions.initializeAsync().then(() => {
 
 			const columnNames = columns.map((column) => column.fieldName);
 			console.log("Column Names:", columnNames);
-			alert(columnNames);
-
-			columnNames.forEach((element) => {
-				const cell = row.insertCell(c);
-				cell.innerHTML = element;
-				c++;
-			});
-
-
-
+			
 			const rows =  dataTable.data;
 			console.log("rows",rows);
 
 			rows.forEach(row => {
+				alert(row);
 
-						const table2 = document.getElementById('data-table').getElementsByTagName('tbody')[0];
-						const row2 = table.insertRow();
-						c=0
+				const rowValues = row.map((value) => value.formattedValue);
+				console.log("Rows Values:", rowValues);
+				
+				alert(rowValues);
+				
+				const el = document.createElement('div');
+				const width = 100; //marker.properties.iconSize[0];
+				const height = 100; //marker.properties.iconSize[1];
+				el.className = 'marker';
+				el.style.backgroundImage = url('photos/PXL_20221210_165911033.jpg'); //`url('photos/${photo_list[c]}')`;
+				el.style.width = 100px; //`${width}px`;
+				el.style.height = 100px; //`${height}px`;
+				el.style.backgroundSize = '100%';
 
-						const rowValues = row.map((value) => value.formattedValue);
-						console.log("Rows Values:", rowValues);
-
-						rowValues.forEach((element) => {
-							 const cell = row2.insertCell(c);
-							 cell.innerHTML = element;
-							 c++;
-						});
+				new mapboxgl.Marker(el)
+					.setLngLat([-84.3859444,33.761595])
+					.addTo(map);					
 
 			});
 		});
