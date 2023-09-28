@@ -1,0 +1,1263 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='win' version='18.1' xml:base='https://10ax.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Extensions />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='ComunidatosMaps' path='/t/cristiansaavedradev226290/workbooks' revision='1.4' site='cristiansaavedradev226290' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='data' inline='true' name='federated.1a05usx0h84r2j1ghzkc21rdgtzf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data' name='textscan.11viw4v0igypxr175e6np10kzgpm'>
+            <connection class='textscan' directory='C:/workspace/ComuniDatos/MapasCamiseta/mapbox-markers/git/comunidatosmap' filename='data.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.11viw4v0igypxr175e6np10kzgpm' name='data.csv' table='[data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='persona' ordinal='1' />
+            <column datatype='string' name='lugar' ordinal='2' />
+            <column datatype='real' name='latitud' ordinal='3' />
+            <column datatype='real' name='longitud' ordinal='4' />
+            <column datatype='string' name='url' ordinal='5' />
+            <column datatype='integer' name='icon_width' ordinal='6' />
+            <column datatype='integer' name='icon_height' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.11viw4v0igypxr175e6np10kzgpm' name='data.csv' table='[data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='persona' ordinal='1' />
+            <column datatype='string' name='lugar' ordinal='2' />
+            <column datatype='real' name='latitud' ordinal='3' />
+            <column datatype='real' name='longitud' ordinal='4' />
+            <column datatype='string' name='url' ordinal='5' />
+            <column datatype='integer' name='icon_width' ordinal='6' />
+            <column datatype='integer' name='icon_height' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>persona</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[persona]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>persona</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lugar</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lugar]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>lugar</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitud</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitud]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>latitud</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitud</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitud]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>longitud</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icon_width</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[icon_width]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>icon_width</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icon_height</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[icon_height]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>icon_height</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='photo' datatype='string' name='[Calculation_3057099727850958848]' role='dimension' semantic-role='[URL]' type='nominal'>
+        <calculation class='tableau' formula='[url]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='data.csv' datatype='table' name='[__tableau_internal_object_id__].[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' caption='Latitud' datatype='real' name='[latitud]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitud' datatype='real' name='[longitud]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Lugar' datatype='string' name='[lugar]' role='dimension' type='nominal' />
+      <column caption='Persona' datatype='string' name='[persona]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' semantic-role='' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='id' />
+        <field-sort-custom-order field='persona' />
+        <field-sort-custom-order field='lugar' />
+        <field-sort-custom-order field='latitud' />
+        <field-sort-custom-order field='longitud' />
+        <field-sort-custom-order field='url' />
+        <field-sort-custom-order field='Calculation_3057099727850958848' />
+        <field-sort-custom-order field='icon_width' />
+        <field-sort-custom-order field='icon_height' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='data.csv' id='data.csv_CF20B71BBCDD4517B58EB0E892CC62E4'>
+            <properties context=''>
+              <relation connection='textscan.11viw4v0igypxr175e6np10kzgpm' name='data.csv' table='[data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='persona' ordinal='1' />
+                  <column datatype='string' name='lugar' ordinal='2' />
+                  <column datatype='real' name='latitud' ordinal='3' />
+                  <column datatype='real' name='longitud' ordinal='4' />
+                  <column datatype='string' name='url' ordinal='5' />
+                  <column datatype='integer' name='icon_width' ordinal='6' />
+                  <column datatype='integer' name='icon_height' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Data'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1a05usx0h84r2j1ghzkc21rdgtzf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a05usx0h84r2j1ghzkc21rdgtzf'>
+            <column-instance column='[latitud]' derivation='Avg' name='[avg:latitud:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[longitud]' derivation='Avg' name='[avg:longitud:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' name='[icon_height]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[icon_width]' role='measure' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column aggregation='Avg' caption='Latitud' datatype='real' name='[latitud]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitud' datatype='real' name='[longitud]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Lugar' datatype='string' name='[lugar]' role='dimension' type='nominal' />
+            <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[lugar]' derivation='None' name='[none:lugar:nk]' pivot='key' type='nominal' />
+            <column-instance column='[persona]' derivation='None' name='[none:persona:nk]' pivot='key' type='nominal' />
+            <column-instance column='[url]' derivation='None' name='[none:url:nk]' pivot='key' type='nominal' />
+            <column caption='Persona' datatype='string' name='[persona]' role='dimension' type='nominal' />
+            <column-instance column='[icon_height]' derivation='Sum' name='[sum:icon_height:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[icon_width]' derivation='Sum' name='[sum:icon_width:ok]' pivot='key' type='ordinal' />
+            <column caption='Url' datatype='string' name='[url]' role='dimension' semantic-role='' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:url:nk]' value='96' />
+            <format attr='height' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_width:ok]' value='44' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:url:nk]' value='780' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok]' value='40' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:persona:nk]' value='112' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:lugar:nk]' value='172' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitud:ok]' value='176' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitud:ok]' value='192' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_height:ok]' value='136' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_width:ok]' value='132' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:persona:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:lugar:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitud:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitud:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:url:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_height:ok] / [federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_width:ok])))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D7683E5A-9F7B-45A1-BFE2-987D5F7540D5}' />
+    </worksheet>
+    <worksheet name='Mapa'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1a05usx0h84r2j1ghzkc21rdgtzf' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1a05usx0h84r2j1ghzkc21rdgtzf'>
+            <column-instance column='[lugar]' derivation='Attribute' name='[attr:lugar:nk]' pivot='key' type='nominal' />
+            <column-instance column='[persona]' derivation='Attribute' name='[attr:persona:nk]' pivot='key' type='nominal' />
+            <column-instance column='[latitud]' derivation='Avg' name='[avg:latitud:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitud]' derivation='Avg' name='[avg:longitud:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column aggregation='Avg' caption='Latitud' datatype='real' name='[latitud]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitud' datatype='real' name='[longitud]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Lugar' datatype='string' name='[lugar]' role='dimension' type='nominal' />
+            <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
+            <column caption='Persona' datatype='string' name='[persona]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok]' />
+              <tooltip column='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[attr:persona:nk]' />
+              <tooltip column='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[attr:lugar:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='Maps/location.png' />
+                <format attr='size' value='2.5524861812591553' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitud:qk]</rows>
+        <cols>[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitud:qk]</cols>
+      </table>
+      <simple-id uuid='{16E64B9F-2AEA-44BD-B8E7-F4F223C19AA8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='01_mapbox_mapaonly'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98794' id='5' param='[com.cristiansaavedra.mapa01].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+            <add-in add-in-id='com.cristiansaavedra.mapa01' extension-url='https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html' extension-version='1.0.0' instance-id='51B752458D064155AEA3D242336F5163'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='50' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='49' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98794' id='5' param='[com.cristiansaavedra.mapa01].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+                  <add-in add-in-id='com.cristiansaavedra.mapa01' extension-url='https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html' extension-version='1.0.0' instance-id='51B752458D064155AEA3D242336F5163'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9D9A8C03-3FF2-4D95-8DFC-684B03EAC6F2}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='02_mapbox_markers'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa02].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+            <add-in add-in-id='com.cristiansaavedra.mapa02' extension-url='https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html' extension-version='1.0.0' instance-id='BA3887AC2C954A24A776041BDCE9EBAB'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='45' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa02].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+                  <add-in add-in-id='com.cristiansaavedra.mapa02' extension-url='https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html' extension-version='1.0.0' instance-id='BA3887AC2C954A24A776041BDCE9EBAB'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4BE27D24-E5C4-4F59-BF5D-B93830AF3C28}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='03_mapbox_markers_photo'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa03].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+            <add-in add-in-id='com.cristiansaavedra.mapa03' extension-url='https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html' extension-version='1.0.0' instance-id='96110AE89ECF4FFAAC2DAB13BCF65FD3'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='43' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa03].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+                  <add-in add-in-id='com.cristiansaavedra.mapa03' extension-url='https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html' extension-version='1.0.0' instance-id='96110AE89ECF4FFAAC2DAB13BCF65FD3'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2B1CBF6C-5A7C-48F4-A297-22FCF3F96195}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='04_tableau_holamundo'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.holamundo].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+            <add-in add-in-id='com.cristiansaavedra.holamundo' extension-url='https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html' extension-version='1.0.0' instance-id='88F93EBDD06744A59D3B1D6FCF26FBB7'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='41' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.holamundo].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+                  <add-in add-in-id='com.cristiansaavedra.holamundo' extension-url='https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html' extension-version='1.0.0' instance-id='88F93EBDD06744A59D3B1D6FCF26FBB7'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{771EC8F3-5731-41EB-8A59-9106B5ACBDB1}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='05_tableau_tabla'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49397' id='5' name='Data' w='99286' x='357' y='603'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='49397' id='7' param='[com.cristiansaavedra.datatable].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html]' type-v2='dashboard-object' w='99286' x='357' y='50000'>
+            <add-in add-in-id='com.cristiansaavedra.datatable' extension-url='https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html' extension-version='1.0.0' instance-id='80F18A6A732543E7923D64760F9FF949'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='40' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+                <zone fixed-size='280' h='49397' id='5' is-fixed='true' name='Data' w='99286' x='357' y='603'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='49397' id='7' param='[com.cristiansaavedra.datatable].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html]' type-v2='dashboard-object' w='99286' x='357' y='50000'>
+                  <add-in add-in-id='com.cristiansaavedra.datatable' extension-url='https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html' extension-version='1.0.0' instance-id='80F18A6A732543E7923D64760F9FF949'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A2FD4FD4-9F2C-432E-9996-D72AEB510311}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='06_tableau_mapa_final'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98794' id='9' param='[com.cristiansaavedra.finalmap].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+            <add-in add-in-id='com.cristiansaavedra.finalmap' extension-url='https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html' extension-version='1.0.0' instance-id='B765ECC0D1474E39B702CC6FF44D9030'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='75' id='5' name='Data' w='45' x='0' y='0' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='12' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+                <zone fixed-size='280' h='75' id='5' is-fixed='true' name='Data' w='45' x='0' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='98794' id='9' param='[com.cristiansaavedra.finalmap].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+                  <add-in add-in-id='com.cristiansaavedra.finalmap' extension-url='https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html' extension-version='1.0.0' instance-id='B765ECC0D1474E39B702CC6FF44D9030'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FA50B47C-D6DB-4F96-8565-D1CD4DFE3108}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Mapa Tradicional'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98794' id='3' name='Mapa' w='99286' x='357' y='603'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='35' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98794' id='3' is-fixed='true' name='Mapa' w='99286' x='357' y='603'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B3276857-55C6-40E5-81C1-0E5AFE09C74D}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='dashboard' name='Mapa Tradicional' tab-color='#a65200'>
+      <viewpoints>
+        <viewpoint name='Mapa'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{33386EF1-8027-413F-8169-B80662DFF6A5}' />
+    </window>
+    <window class='dashboard' name='01_mapbox_mapaonly' tab-color='#dec77b'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{9F02BB0A-638E-4C89-A554-80373C92E1A9}' />
+    </window>
+    <window class='dashboard' name='02_mapbox_markers' tab-color='#dec77b'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{2C86E44F-4B1D-4A30-9265-DDD828C8B073}' />
+    </window>
+    <window class='dashboard' name='03_mapbox_markers_photo' tab-color='#dec77b'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{332F5CB8-12F3-4603-A1EE-CDDD8619A634}' />
+    </window>
+    <window class='dashboard' name='04_tableau_holamundo' tab-color='#17927d'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{22279182-D6EA-4982-92A6-7211EC61FA41}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Data' tab-color='#72bcbb'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FED5D01B-7D80-4FF9-9F0E-04130994EA7D}' />
+    </window>
+    <window class='dashboard' name='05_tableau_tabla' tab-color='#17927d'>
+      <viewpoints>
+        <viewpoint name='Data'>
+          <zoom type='fit-height' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{B218719B-9BE1-4109-BFB9-84984423F9BC}' />
+    </window>
+    <window class='dashboard' name='06_tableau_mapa_final' tab-color='#17927d'>
+      <viewpoints>
+        <viewpoint name='Data' />
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{66F13075-748B-4D20-870F-A2C4608432B0}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Mapa'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{88D95EAE-27BF-4069-9A83-4439B036E5C1}' />
+    </window>
+  </windows>
+  <external>
+    <shapes>
+      <shape name='Maps/location.png'>
+        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
+        WbQydFaTbv8f4bgn3smpV+IAAAAASUVORK5CYII=
+      </shape>
+    </shapes>
+  </external>
+  <referenced-extensions>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.datatable'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Data Tabla</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html</url>
+          </source-location>
+          <icon />
+          <permissions>
+            <permission>full data</permission>
+          </permissions>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>Data Table</text>
+            <text locale='es_ES'>Data Tabla</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='05_tableau_tabla' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.finalmap'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Mapa Final</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html</url>
+          </source-location>
+          <icon />
+          <permissions>
+            <permission>full data</permission>
+          </permissions>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>Final Map</text>
+            <text locale='es_ES'>Mapa Final</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='06_tableau_mapa_final' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.holamundo'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Hola Mundo</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html</url>
+          </source-location>
+          <icon />
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>Hello World</text>
+            <text locale='es_ES'>Hola Mundo</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='04_tableau_holamundo' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.mapa01'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Comunidatos Mapa 01</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>map01</text>
+            <text locale='es_ES'>mapa01</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='01_mapbox_mapaonly' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.mapa02'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Comunidatos Mapa 02</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>map02</text>
+            <text locale='es_ES'>mapa02</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='02_mapbox_markers' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.mapa03'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Comunidatos Mapa 03</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>map03</text>
+            <text locale='es_ES'>mapa03</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='03_mapbox_markers_photo' />
+      </referenced-views>
+    </referenced-extension>
+  </referenced-extensions>
+</workbook>

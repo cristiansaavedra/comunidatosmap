@@ -19,6 +19,16 @@ tableau.extensions.initializeAsync().then(() => {
 			
 			const rows =  dataTable.data;
 			console.log("rows",rows);
+			
+			
+			mapboxgl.accessToken = 'pk.eyJ1IjoiY3Jpc3RpYW5zYWF2ZWRyYSIsImEiOiJjbG14Mm04NGIwdmR2MnF0MzRndzkzNmlkIn0.fl1FM6OB6np8dtbMLnxTiA';
+
+			const map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/mapbox/light-v11',		
+				center: [-82.904065,31.189520],
+				zoom: 4
+			});
 
 			rows.forEach(row => {
 				const rowValues = row.map((value) => value.formattedValue);
