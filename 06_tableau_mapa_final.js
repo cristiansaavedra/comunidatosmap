@@ -1,4 +1,6 @@
 tableau.extensions.initializeAsync().then(() => {
+	
+	alert("entro");
 
 	const worksheet = tableau.extensions.dashboardContent.dashboard.worksheets[0];
 	console.log(worksheet.name);
@@ -18,6 +20,7 @@ tableau.extensions.initializeAsync().then(() => {
 
 			const columnNames = columns.map((column) => column.fieldName);
 			console.log("Column Names:", columnNames);
+			alert(columnNames);
 
 			columnNames.forEach((element) => {
 				const cell = row.insertCell(c);
