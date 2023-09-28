@@ -23,7 +23,7 @@ tableau.extensions.initializeAsync().then(() => {
 			
 			mapboxgl.accessToken = 'pk.eyJ1IjoiY3Jpc3RpYW5zYWF2ZWRyYSIsImEiOiJjbG14Mm04NGIwdmR2MnF0MzRndzkzNmlkIn0.fl1FM6OB6np8dtbMLnxTiA';
 
-			const map = new mapboxgl.Map({
+			const mapa = new mapboxgl.Map({
 				container: 'map',
 				style: 'mapbox://styles/mapbox/light-v11',		
 				center: [-82.904065,31.189520],
@@ -51,7 +51,9 @@ tableau.extensions.initializeAsync().then(() => {
 
 				new mapboxgl.Marker(el)
 					.setLngLat([parseFloat(longitude), parseFloat(latitude)])
-					.addTo(map);					
+					.addTo(mapa);	
+
+				console.log(mapa);
 
 			});
 		});
