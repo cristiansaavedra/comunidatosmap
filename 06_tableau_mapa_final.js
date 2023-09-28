@@ -14,10 +14,6 @@ tableau.extensions.initializeAsync().then(() => {
 			const columns = dataTable.columns;
 			console.log("columns",columns);
 
-			const table = document.getElementById('data-table').getElementsByTagName('thead')[0];
-			const row = table.insertRow();
-			c=0
-
 			const columnNames = columns.map((column) => column.fieldName);
 			console.log("Column Names:", columnNames);
 			
