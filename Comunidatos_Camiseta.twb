@@ -15,6 +15,7 @@
     <SetMembershipControl />
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
   <repository-location id='ComunidatosMaps' path='/t/cristiansaavedradev226290/workbooks' revision='1.3' site='cristiansaavedradev226290' />
   <preferences>
@@ -396,8 +397,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='41' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+            <zone h='100000' id='48' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='47' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='98794' id='5' param='[com.cristiansaavedra.mapa01].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.mapa01' extension-url='https://cristiansaavedra.github.io/comunidatosmap/01_mapbox_mapaonly.html' extension-version='1.0.0' instance-id='51B752458D064155AEA3D242336F5163'>
                     <instance-settings />
@@ -457,8 +458,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='37' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='43' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa02].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.mapa02' extension-url='https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html' extension-version='1.0.0' instance-id='BA3887AC2C954A24A776041BDCE9EBAB'>
                     <instance-settings />
@@ -518,8 +519,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='35' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='41' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa03].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.mapa03' extension-url='https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html' extension-version='1.0.0' instance-id='96110AE89ECF4FFAAC2DAB13BCF65FD3'>
                     <instance-settings />
@@ -579,8 +580,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='33' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='39' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.holamundo].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.holamundo' extension-url='https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html' extension-version='1.0.0' instance-id='88F93EBDD06744A59D3B1D6FCF26FBB7'>
                     <instance-settings />
@@ -648,8 +649,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='32' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='38' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
                 <zone fixed-size='280' h='49397' id='5' is-fixed='true' name='Data' w='99286' x='357' y='603'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -687,6 +688,77 @@
       </devicelayouts>
       <simple-id uuid='{A2FD4FD4-9F2C-432E-9996-D72AEB510311}' />
     </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='06_tableau_mapa_final'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98794' id='9' param='[com.cristiansaavedra.finalmap].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+            <add-in add-in-id='com.cristiansaavedra.finalmap' extension-url='https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html' extension-version='1.0.0' instance-id='B765ECC0D1474E39B702CC6FF44D9030'>
+              <instance-settings />
+              <type-settings>
+                <dashboard />
+              </type-settings>
+            </add-in>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='75' id='5' name='Data' w='45' x='0' y='0' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='10' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+                <zone fixed-size='280' h='75' id='5' is-fixed='true' name='Data' w='45' x='0' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='98794' id='9' param='[com.cristiansaavedra.finalmap].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html]' type-v2='dashboard-object' w='99286' x='357' y='603'>
+                  <add-in add-in-id='com.cristiansaavedra.finalmap' extension-url='https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html' extension-version='1.0.0' instance-id='B765ECC0D1474E39B702CC6FF44D9030'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FA50B47C-D6DB-4F96-8565-D1CD4DFE3108}' />
+    </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Mapa Tradicional'>
       <style />
       <size sizing-mode='automatic' />
@@ -712,8 +784,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='27' param='vert' type-v2='layout-flow' w='99286' x='357' y='603'>
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='33' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98794' id='3' is-fixed='true' name='Mapa' w='99286' x='357' y='603'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -749,22 +821,22 @@
     </window>
     <window class='dashboard' name='01_mapbox_mapaonly' tab-color='#dec77b'>
       <viewpoints />
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{9F02BB0A-638E-4C89-A554-80373C92E1A9}' />
     </window>
     <window class='dashboard' name='02_mapbox_markers' tab-color='#dec77b'>
       <viewpoints />
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{2C86E44F-4B1D-4A30-9265-DDD828C8B073}' />
     </window>
     <window class='dashboard' name='03_mapbox_markers_photo' tab-color='#dec77b'>
       <viewpoints />
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{332F5CB8-12F3-4603-A1EE-CDDD8619A634}' />
     </window>
     <window class='dashboard' name='04_tableau_holamundo' tab-color='#17927d'>
       <viewpoints />
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{22279182-D6EA-4982-92A6-7211EC61FA41}' />
     </window>
     <window class='worksheet' name='Data' tab-color='#72bcbb'>
@@ -797,7 +869,7 @@
       </viewpoint>
       <simple-id uuid='{FED5D01B-7D80-4FF9-9F0E-04130994EA7D}' />
     </window>
-    <window class='dashboard' maximized='true' name='05_tableau_tabla' tab-color='#17927d'>
+    <window class='dashboard' name='05_tableau_tabla' tab-color='#17927d'>
       <viewpoints>
         <viewpoint name='Data'>
           <zoom type='fit-height' />
@@ -805,6 +877,13 @@
       </viewpoints>
       <active id='7' />
       <simple-id uuid='{B218719B-9BE1-4109-BFB9-84984423F9BC}' />
+    </window>
+    <window class='dashboard' maximized='true' name='06_tableau_mapa_final' tab-color='#17927d'>
+      <viewpoints>
+        <viewpoint name='Data' />
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{66F13075-748B-4D20-870F-A2C4608432B0}' />
     </window>
     <window class='worksheet' hidden='true' name='Mapa'>
       <cards>
@@ -1136,6 +1215,20 @@
       tRZeBIfWWngKFFprYQCE1loYAKG1FgZAaK2FARBaa2EAhNZaGAChtRYGQGithQEQWmthAITW
       WhgAobUWBkBorYUBEFprYQCE1loYAKG1FgZAaK2FARBaa2EAhNZaGAChtRYGQGithQEQWmth
       AITWWhgAobUWBkBorYUBEFprYQCE1tr/D4PYVh9BXKH6AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='06_tableau_mapa_final' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='192' name='Data' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
@@ -2022,6 +2115,33 @@
       </manifest>
       <referenced-views>
         <referenced-view instances='1' viewId='05_tableau_tabla' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.finalmap'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Mapa Final</description>
+          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='' website='https://medium.com/@cristiansaavedra' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html</url>
+          </source-location>
+          <icon />
+          <permissions>
+            <permission>full data</permission>
+          </permissions>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>Final Map</text>
+            <text locale='es_ES'>Mapa Final</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='06_tableau_mapa_final' />
       </referenced-views>
     </referenced-extension>
     <referenced-extension>

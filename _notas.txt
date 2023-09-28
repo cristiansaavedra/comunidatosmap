@@ -30,7 +30,7 @@ https://cristiansaavedra.github.io/comunidatosmap/02_mapbox_markers.html
 https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html
 https://cristiansaavedra.github.io/comunidatosmap/04_tableau_holamundo.html
 https://cristiansaavedra.github.io/comunidatosmap/05_tableau_tabla.html
-
+https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html
 
 #Adicionales
 

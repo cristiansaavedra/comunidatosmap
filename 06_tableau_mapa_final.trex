@@ -7,7 +7,7 @@
       <author name="Cristian Saavedra Desmoineaux" email="cristian.saavedra.desmoineaux@gmail.com" organization="" website="https://medium.com/@cristiansaavedra"/>
       <min-api-version>1.0</min-api-version>
       <source-location>
-        <url>http://localhost/test/mapa.html</url>
+        <url>https://cristiansaavedra.github.io/comunidatosmap/06_tableau_mapa_final.html</url>
       </source-location>
       <icon></icon>
 	  <permissions>

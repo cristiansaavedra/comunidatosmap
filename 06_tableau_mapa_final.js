@@ -1,5 +1,5 @@
 function initialize() {
     tableau.extensions.initializeAsync().then(
-		console.log("Entro")
+		alert("Hello! I am an alert box!!");
 	);
 }
